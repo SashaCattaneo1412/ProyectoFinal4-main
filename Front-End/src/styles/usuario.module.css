@@ -1,0 +1,125 @@
+/* Estilos originales */
+
+.img {
+  padding: 1px 200px;
+}
+
+
+.title {
+  padding: 3px 200px;
+  color: white;
+  font-family: 'Lexend', sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 0em;
+}
+
+.label {
+  color: white;
+  font-family: 'Lexend', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  margin-right: 100px;
+}
+
+/* Estilos responsive */
+
+@media (max-width: 768px) {
+  .img {
+    padding: 2px 20px;
+  }
+
+  .title,
+  .label {
+    padding: 3px 20px;
+    margin-right: 20px;
+  }
+
+  .contenedorflotante {
+    gap: 10px;
+  }
+}
+
+
+  .editar
+ {
+ 
+   
+   display: flex;
+   justify-content: center; /* Centrar horizontalmente */
+   cursor: pointer; /* Cambiar cursor al pasar el ratón */
+   border-radius: 20px;
+   background: rgba(230, 221, 214, 1);
+   width: 120px;
+   height: 45px;
+   flex-shrink: 0;
+   font-family: 'Lexend', sans-serif;
+   font-size: 25px;
+   font-weight: 900;
+   border: none;
+ }
+ .editar:hover
+ {
+ 
+   background:var(--negro);
+   border:none;
+   color: white;
+   
+ }
+ 
+ 
+ 
+ .LINK{
+     font-size: 15px;
+     color: white;
+ }
+
+ .seguimiento{
+ 
+   color: white;
+   font-family: 'Lexend', sans-serif;
+   gap: 10px;
+   font-weight: 600;
+   font-size: 15px;
+   margin-top: 20px;
+ 
+ }
+
+ .contenedorAbajo{
+
+  bottom: 160px;
+  right: 100px;
+  position: fixed;
+  
+ }
+ 
+
+
+
+ .formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  align-items: center;
+}
+
+ 
+.formGroup label {
+  width: 200px;
+  margin-right: 230px;
+  font-weight: 600;
+  
+}
+
+.formGroup input[type="text"] {
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
